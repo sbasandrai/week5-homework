@@ -17,3 +17,11 @@ $.each(timeBlock, function (i, hour) {
     $(this).next().addClass("future");
   }
 });
+
+// adds diary event to local storage
+
+$(".saveBtn").on("click", function (event) {
+  var calendarItem =
+    event.target.parentElement.previousElementSibling.children[0].value;
+  localStorage.setItem(event.target.attributes[0].value, calendarItem);
+});
