@@ -22,13 +22,7 @@ WHEN I refresh the page, the saved events persist
 
 ### Screenshot
 
-- Application deployed at live URL
-
-- Application loads with no errors
-
-- Application GitHub URL submitted
-
-- GitHub repo contains application code
+![screenshot](./02-Homework/Assets/Screenshot%202022-05-10%20183349.jpg)
 
 ### Link to Github
 
